@@ -1,12 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-delete-employee',
-  standalone: true,
-  imports: [],
   templateUrl: './delete-employee.component.html',
-  styleUrl: './delete-employee.component.css'
+  styleUrls: ['./delete-employee.component.css']
 })
-export class DeleteEmployeeComponent {
+export class DeleteEmployeeComponent implements OnInit {
+  @Input() employeeId: number;
 
+  constructor(private apiService: ApiService) { }
+
+  ngOnInit(): void {
+  }
+
+  deleteEmployee() {
+    this.apiService.deleteEmployee(this.employeeId).subscribe(() => {
+      // Close modal and refresh employee list
+    });
+  }
 }
