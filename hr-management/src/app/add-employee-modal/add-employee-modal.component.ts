@@ -5,6 +5,7 @@ import { ApiService } from '../api.service';
 @Component({
   selector: 'app-add-employee-modal',
   templateUrl: './add-employee-modal.component.html',
+  standalone: true,
   styleUrls: ['./add-employee-modal.component.css']
 })
 export class AddEmployeeModalComponent implements OnInit {
