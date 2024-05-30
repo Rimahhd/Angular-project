@@ -1,9 +1,7 @@
 package com.example.hr_backend.entites;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
@@ -11,20 +9,25 @@ import org.springframework.data.annotation.Id;
 import java.util.Date;
 
 @Entity
-@Table(name = "expenses")
-public class Expense {
+@Data
+public class ExpenseClaimEntry {
     @Getter
     @Setter
     @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private Date date;
     private String description;
     private double total;
-    private String status;
-    private String employee;
 
-    // Getters and Setters
+    @ManyToOne
+    @JoinColumn(name = "expense_type_id")
+    private ExpenseType expenseType;
+
+    @ManyToOne
+    @JoinColumn(name = "expense_claim_id")
+    private ExpenseClaim expenseClaim;
+
 }
+

@@ -4,5 +4,9 @@ import com.example.hr_backend.entites.ExpenseClaim;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-public interface ExpenseRepository extends JpaRepository<ExpenseClaim, Long> {
+import java.util.List;
+
+public interface ExpenseClaimRepository extends JpaRepository<ExpenseClaim, Long> {
+    List<ExpenseClaim> findByEmployeeId(Long employeeId);
 }
+

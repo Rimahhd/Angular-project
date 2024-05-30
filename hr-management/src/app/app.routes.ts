@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MainLayoutComponent } from './main-layout/main-layout.component';
-import { EmployeesComponent } from './employees/employees.component';
-import { LeavesComponent } from './leaves/leaves.component';
-import { ExpensesComponent } from './expenses/expenses.component';
+import { MainLayoutComponent } from './components/main-layout/main-layout.component';
+import { EmployeesComponent } from './components/employees/employees.component';
+import { LeavesComponent } from './components/leaves/leaves.component';
+import { ExpensesComponent } from './components/expenses/expenses.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'main', pathMatch: 'full' },
@@ -11,8 +11,7 @@ const routes: Routes = [
       { path: 'employees', component: EmployeesComponent },
       { path: 'leaves', component: LeavesComponent },
       { path: 'expenses', component: ExpensesComponent }
-    ]
-  }
+    ]}
 ];
 
 @NgModule({

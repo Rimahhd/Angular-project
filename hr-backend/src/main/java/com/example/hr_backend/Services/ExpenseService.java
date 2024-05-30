@@ -1,5 +1,6 @@
 package com.example.hr_backend.Services;
-import com.example.hr_backend.entites.Expense;
+import com.example.hr_backend.Repositories.ExpenseClaimRepository;
+import com.example.hr_backend.entites.ExpenseClaim;
 import com.example.hr_backend.Repositories.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -8,15 +9,14 @@ import java.util.List;
 
 @Service
 public class ExpenseService {
-
     @Autowired
-    private ExpenseRepository expenseRepository;
+    private ExpenseClaimRepository expenseClaimRepository;
 
-    public List<Expense> getAllExpenses() {
-        return expenseRepository.findAll();
+    public ExpenseClaim saveExpenseClaim(ExpenseClaim expenseClaim) {
+        return expenseClaimRepository.save(expenseClaim);
     }
 
-    public Expense getExpenseById(Long id) {
-        return expenseRepository.findById(id).orElse(null);
+    public List<ExpenseClaim> getExpenseClaimsByEmployee(Long employeeId) {
+        return expenseClaimRepository.findByEmployeeId(employeeId);
     }
 }

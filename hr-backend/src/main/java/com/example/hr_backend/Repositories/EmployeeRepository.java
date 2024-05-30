@@ -4,6 +4,9 @@ import com.example.hr_backend.entites.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
+import java.util.List;
+
+
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
+    List<Employee> findByDepartmentId(Long departmentId);
 }

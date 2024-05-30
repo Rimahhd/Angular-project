@@ -1,0 +1,25 @@
+<button class="btn btn-primary" (click)="openAddEmployeeModal()">Add Employee</button>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Department</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let employee of employees">
+    <td>{{ employee.name }}</td>
+    <td>{{ employee.email }}</td>
+    <td>{{ employee.department.name }}</td>
+    <td>
+      <button class="btn btn-warning" (click)="openEditEmployeeModal(employee)">Edit</button>
+      <button class="btn btn-danger" (click)="openDeleteEmployeeModal(employee.id)">Delete</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<app-add-employee-modal (employeeAdded)="refreshEmployees()"></app-add-employee-modal>
+<app-delete-employee-modal (employeeDeleted)="refreshEmployees()"></app-delete-employee-modal>
