@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+// @ts-ignore
 import { Employee } from '../models/employee.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmployeeService {
-  private apiUrl = 'http://localhost:8000/api/employees';
+  private apiUrl = 'http://localhost:8000/HRManagementSystem/api/v1/employees';
 
   constructor(private http: HttpClient) { }
 

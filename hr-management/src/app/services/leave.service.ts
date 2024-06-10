@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+// @ts-ignore
 import { Leave } from '../models/leave.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LeaveService {
-  private apiUrl = 'http://localhost:8000/api/leaves';
+  private apiUrl = 'http://localhost:8000HRManagementSystem/api/v1/leaves';
 
   constructor(private http: HttpClient) { }
 
