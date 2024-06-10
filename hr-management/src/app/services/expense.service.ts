@@ -7,7 +7,7 @@ import { ExpenseClaim } from '../models/expense-claim.model';
   providedIn: 'root'
 })
 export class ExpenseService {
-  private apiUrl = 'http://localhost:8080/api/expenses';
+  private apiUrl = 'http://localhost:8000/api/expenses';
 
   constructor(private http: HttpClient) { }
 

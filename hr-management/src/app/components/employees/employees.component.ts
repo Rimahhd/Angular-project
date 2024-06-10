@@ -11,5 +11,11 @@ import {AddEmployeeModalComponent} from "../add-employee-modal/add-employee-moda
   styleUrl: './employees.component.css'
 })
 export class EmployeesComponent {
+  employees: any;
+  private _employee: any;
 
+  openEditEmployeeModal(employee: any) {
+    this._employee = employee;
+
+  }
 }

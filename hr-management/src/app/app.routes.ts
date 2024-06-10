@@ -5,7 +5,7 @@ import { EmployeesComponent } from './components/employees/employees.component';
 import { LeavesComponent } from './components/leaves/leaves.component';
 import { ExpensesComponent } from './components/expenses/expenses.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: '', redirectTo: 'main', pathMatch: 'full' },
   { path: 'main', component: MainLayoutComponent, children: [
       { path: 'employees', component: EmployeesComponent },

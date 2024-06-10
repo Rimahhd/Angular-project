@@ -1,0 +1,2329 @@
+{
+	"info": {
+		"_postman_id": "7041547c-d1a8-4a2d-bde9-e86e0aa6f9eb",
+		"name": "HR_Management_System API",
+		"description": "HR_Management_System API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34187609"
+	},
+	"item": [
+		{
+			"name": "HRManagementSystem/api/v1",
+			"item": [
+				{
+					"name": "employees",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "PATCH HRManagementSystem/api/v1/employees/{id}",
+									"request": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "<string>",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"employees",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "PATCH",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "<string>",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"employees",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "<integer>",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"message\": \"<string>\"\n}"
+										}
+									]
+								},
+								{
+									"name": "DELETE HRManagementSystem/api/v1/employees/{id}",
+									"request": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"employees",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"employees",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "<integer>",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "<string>"
+										}
+									]
+								},
+								{
+									"name": "GET HRManagementSystem/api/v1/employees/{id}",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"employees",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"employees",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "<integer>",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": \"<integer>\",\n  \"address\": \"<string>\",\n  \"name\": \"<string>\",\n  \"email\": \"<string>\",\n  \"departmentId\": \"<long>\",\n  \"departments\": [\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "POST HRManagementSystem/api/v1/employees",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"<integer>\",\n  \"address\": \"<string>\",\n  \"name\": \"<string>\",\n  \"email\": \"<string>\",\n  \"departmentId\": \"<long>\",\n  \"departments\": [\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"employees"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": \"<integer>\",\n  \"address\": \"<string>\",\n  \"name\": \"<string>\",\n  \"email\": \"<string>\",\n  \"departmentId\": \"<long>\",\n  \"departments\": [\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"employees"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "GET HRManagementSystem/api/v1/employees/all",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/all",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"employees",
+										"all"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/all",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"employees",
+												"all"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": \"<integer>\",\n    \"email\": \"<string>\",\n    \"address\": \"<string>\",\n    \"name\": \"<string>\",\n    \"departmentId\": \"<long>\"\n  },\n  {\n    \"id\": \"<integer>\",\n    \"email\": \"<string>\",\n    \"address\": \"<string>\",\n    \"name\": \"<string>\",\n    \"departmentId\": \"<long>\"\n  }\n]"
+								}
+							]
+						},
+						{
+							"name": "GET HRManagementSystem/api/v1/employees/departments/{departmentId}/employees",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/departments/:departmentId/employees",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"employees",
+										"departments",
+										":departmentId",
+										"employees"
+									],
+									"variable": [
+										{
+											"key": "departmentId",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/employees/departments/:departmentId/employees",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"employees",
+												"departments",
+												":departmentId",
+												"employees"
+											],
+											"variable": [
+												{
+													"key": "departmentId",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": \"<integer>\",\n    \"email\": \"<string>\",\n    \"address\": \"<string>\",\n    \"name\": \"<string>\",\n    \"departmentId\": \"<long>\"\n  },\n  {\n    \"id\": \"<integer>\",\n    \"email\": \"<string>\",\n    \"address\": \"<string>\",\n    \"name\": \"<string>\",\n    \"departmentId\": \"<long>\"\n  }\n]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "expenses",
+					"item": [
+						{
+							"name": "POST HRManagementSystem/api/v1/expenses/expense-types",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"expenseTypeId\": \"<integer>\",\n  \"expenseTypeName\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/expenses/expense-types",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"expenses",
+										"expense-types"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"expenseTypeId\": \"<integer>\",\n  \"expenseTypeName\": \"<string>\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/expenses/expense-types",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"expenses",
+												"expense-types"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"expenseTypeId\": \"<integer>\",\n  \"expenseTypeName\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "POST HRManagementSystem/api/v1/expenses/submit-expense",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"ExpenseClaimId\": \"<integer>\",\n  \"ExpenseClaimDate\": \"<date>\",\n  \"ExpenseClaimDescription\": \"<string>\",\n  \"ExpenseClaimTotal\": \"<integer>\",\n  \"ExpenseClaimStatus\": \"<string>\",\n  \"ExpenseClaimEmployeeId\": \"<integer>\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/expenses/submit-expense",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"expenses",
+										"submit-expense"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"ExpenseClaimId\": \"<integer>\",\n  \"ExpenseClaimDate\": \"<date>\",\n  \"ExpenseClaimDescription\": \"<string>\",\n  \"ExpenseClaimTotal\": \"<integer>\",\n  \"ExpenseClaimStatus\": \"<string>\",\n  \"ExpenseClaimEmployeeId\": \"<integer>\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/expenses/submit-expense",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"expenses",
+												"submit-expense"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "GET HRManagementSystem/api/v1/expenses/total-claims",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/expenses/total-claims",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"expenses",
+										"total-claims"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/expenses/total-claims",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"expenses",
+												"total-claims"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "<string>"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "leavetypes",
+					"item": [
+						{
+							"name": "leaveType",
+							"item": [
+								{
+									"name": "{id}",
+									"item": [
+										{
+											"name": "PATCH HRManagementSystem/api/v1/leavetypes/leaveType/{id}",
+											"request": {
+												"method": "PATCH",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "<string>",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/leaveType/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"leavetypes",
+														"leaveType",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "<integer>",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "OK",
+													"originalRequest": {
+														"method": "PATCH",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "*/*"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "<string>",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/leaveType/:id",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"HRManagementSystem",
+																"api",
+																"v1",
+																"leavetypes",
+																"leaveType",
+																":id"
+															],
+															"variable": [
+																{
+																	"key": "id",
+																	"value": "<integer>",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "*/*"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"message\": \"<string>\"\n}"
+												}
+											]
+										},
+										{
+											"name": "GET HRManagementSystem/api/v1/leavetypes/leaveType/{id}",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/leaveType/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"leavetypes",
+														"leaveType",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "<integer>",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "OK",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "*/*"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/leaveType/:id",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"HRManagementSystem",
+																"api",
+																"v1",
+																"leavetypes",
+																"leaveType",
+																":id"
+															],
+															"variable": [
+																{
+																	"key": "id",
+																	"value": "<integer>",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "*/*"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\"\n}"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "GET HRManagementSystem/api/v1/leavetypes/leaveType/all",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/leaveType/all",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leavetypes",
+												"leaveType",
+												"all"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/leaveType/all",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"leavetypes",
+														"leaveType",
+														"all"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "[\n  {\n    \"leaveType\": \"<string>\"\n  },\n  {\n    \"leaveType\": \"<string>\"\n  }\n]"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "POST HRManagementSystem/api/v1/leavetypes",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leavetypes"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leavetypes"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "DELETE HRManagementSystem/api/v1/leavetypes/delete/leaveType/{id}",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/delete/leaveType/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leavetypes",
+										"delete",
+										"leaveType",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leavetypes/delete/leaveType/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leavetypes",
+												"delete",
+												"leaveType",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "<string>"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "leaves",
+					"item": [
+						{
+							"name": "get/leave",
+							"item": [
+								{
+									"name": "GET HRManagementSystem/api/v1/leaves/get/leave/all",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/get/leave/all",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"get",
+												"leave",
+												"all"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/get/leave/all",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"leaves",
+														"get",
+														"leave",
+														"all"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "[\n  {\n    \"id\": \"<integer>\",\n    \"email\": \"<string>\",\n    \"address\": \"<string>\",\n    \"name\": \"<string>\",\n    \"departmentId\": \"<long>\"\n  },\n  {\n    \"id\": \"<integer>\",\n    \"email\": \"<string>\",\n    \"address\": \"<string>\",\n    \"name\": \"<string>\",\n    \"departmentId\": \"<long>\"\n  }\n]"
+										}
+									]
+								},
+								{
+									"name": "GET HRManagementSystem/api/v1/leaves/get/leave/{id}",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/get/leave/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"get",
+												"leave",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/get/leave/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"HRManagementSystem",
+														"api",
+														"v1",
+														"leaves",
+														"get",
+														"leave",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "<integer>",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"id\": \"<integer>\",\n  \"address\": \"<string>\",\n  \"name\": \"<string>\",\n  \"email\": \"<string>\",\n  \"departmentId\": \"<long>\",\n  \"departments\": [\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "PATCH HRManagementSystem/api/v1/leaves/update/leave/{id}",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<string>",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/update/leave/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leaves",
+										"update",
+										"leave",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "<string>",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/update/leave/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"update",
+												"leave",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "POST HRManagementSystem/api/v1/leaves/create/leave/{id}",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"<integer>\",\n  \"address\": \"<string>\",\n  \"name\": \"<string>\",\n  \"email\": \"<string>\",\n  \"departmentId\": \"<long>\",\n  \"departments\": [\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/create/leave/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leaves",
+										"create",
+										"leave",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": ""
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"id\": \"<integer>\",\n  \"address\": \"<string>\",\n  \"name\": \"<string>\",\n  \"email\": \"<string>\",\n  \"departmentId\": \"<long>\",\n  \"departments\": [\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<integer>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/create/leave/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"create",
+												"leave",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": ""
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "POST HRManagementSystem/api/v1/leaves/submit/leaves",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/submit/leaves?employeeId=<integer>&leaveTypeId=<integer>&fromDate=<date>&toDate=<date>&note=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leaves",
+										"submit",
+										"leaves"
+									],
+									"query": [
+										{
+											"key": "employeeId",
+											"value": "<integer>",
+											"description": "(Required) "
+										},
+										{
+											"key": "leaveTypeId",
+											"value": "<integer>",
+											"description": "(Required) "
+										},
+										{
+											"key": "fromDate",
+											"value": "<date>",
+											"description": "(Required) "
+										},
+										{
+											"key": "toDate",
+											"value": "<date>",
+											"description": "(Required) "
+										},
+										{
+											"key": "note",
+											"value": "<string>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/submit/leaves?employeeId=<integer>&leaveTypeId=<integer>&fromDate=<date>&toDate=<date>&note=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"submit",
+												"leaves"
+											],
+											"query": [
+												{
+													"key": "employeeId",
+													"value": "<integer>"
+												},
+												{
+													"key": "leaveTypeId",
+													"value": "<integer>"
+												},
+												{
+													"key": "fromDate",
+													"value": "<date>"
+												},
+												{
+													"key": "toDate",
+													"value": "<date>"
+												},
+												{
+													"key": "note",
+													"value": "<string>"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": \"<integer>\",\n  \"employeeId\": \"<integer>\",\n  \"toDate\": \"<date>\",\n  \"leaveType\": \"<string>\",\n  \"fromDate\": \"<date>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "DELETE HRManagementSystem/api/v1/leaves/delete/leave/{id}",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/delete/leave/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leaves",
+										"delete",
+										"leave",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/delete/leave/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"delete",
+												"leave",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "<string>"
+								}
+							]
+						},
+						{
+							"name": "GET HRManagementSystem/api/v1/leaves/employees/{employeeId}/leaves",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/employees/:employeeId/leaves?fromDate=<date>&toDate=<date>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leaves",
+										"employees",
+										":employeeId",
+										"leaves"
+									],
+									"query": [
+										{
+											"key": "fromDate",
+											"value": "<date>",
+											"description": "(Required) "
+										},
+										{
+											"key": "toDate",
+											"value": "<date>",
+											"description": "(Required) "
+										}
+									],
+									"variable": [
+										{
+											"key": "employeeId",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/employees/:employeeId/leaves?fromDate=<date>&toDate=<date>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"employees",
+												":employeeId",
+												"leaves"
+											],
+											"query": [
+												{
+													"key": "fromDate",
+													"value": "<date>"
+												},
+												{
+													"key": "toDate",
+													"value": "<date>"
+												}
+											],
+											"variable": [
+												{
+													"key": "employeeId",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "[\n  {\n    \"id\": \"<integer>\",\n    \"employeeId\": \"<integer>\",\n    \"toDate\": \"<date>\",\n    \"leaveType\": \"<string>\",\n    \"fromDate\": \"<date>\"\n  },\n  {\n    \"id\": \"<integer>\",\n    \"employeeId\": \"<integer>\",\n    \"toDate\": \"<date>\",\n    \"leaveType\": \"<string>\",\n    \"fromDate\": \"<date>\"\n  }\n]"
+								}
+							]
+						},
+						{
+							"name": "GET HRManagementSystem/api/v1/leaves/leaves",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/leaves?leaveTypeId=<integer>&employeeId=<integer>&page=<integer>&size=<integer>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"HRManagementSystem",
+										"api",
+										"v1",
+										"leaves",
+										"leaves"
+									],
+									"query": [
+										{
+											"key": "leaveTypeId",
+											"value": "<integer>",
+											"description": "(Required) "
+										},
+										{
+											"key": "employeeId",
+											"value": "<integer>",
+											"description": "(Required) "
+										},
+										{
+											"key": "page",
+											"value": "<integer>",
+											"description": "(Required) "
+										},
+										{
+											"key": "size",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/HRManagementSystem/api/v1/leaves/leaves?leaveTypeId=<integer>&employeeId=<integer>&page=<integer>&size=<integer>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"HRManagementSystem",
+												"api",
+												"v1",
+												"leaves",
+												"leaves"
+											],
+											"query": [
+												{
+													"key": "leaveTypeId",
+													"value": "<integer>"
+												},
+												{
+													"key": "employeeId",
+													"value": "<integer>"
+												},
+												{
+													"key": "page",
+													"value": "<integer>"
+												},
+												{
+													"key": "size",
+													"value": "<integer>"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": \"<integer>\",\n  \"employeeId\": \"<integer>\",\n  \"toDate\": \"<date>\",\n  \"leaveType\": \"<string>\",\n  \"fromDate\": \"<date>\"\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "departments/departments",
+			"item": [
+				{
+					"name": "{id}",
+					"item": [
+						{
+							"name": "PATCH departments/departments/{id}",
+							"request": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "<string>",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/departments/departments/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"departments",
+										"departments",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "<string>",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/departments/departments/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"departments",
+												"departments",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"message\": \"<string>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "DELETE departments/departments/{id}",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/departments/departments/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"departments",
+										"departments",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/departments/departments/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"departments",
+												"departments",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "<string>"
+								}
+							]
+						},
+						{
+							"name": "GET departments/departments/{id}",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/departments/departments/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"departments",
+										"departments",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<integer>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/departments/departments/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"departments",
+												"departments",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<integer>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "POST departments/departments/create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "*/*"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/departments/departments/create",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"departments",
+								"departments",
+								"create"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"<integer>\",\n  \"name\": \"<string>\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/departments/departments/create",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"departments",
+										"departments",
+										"create"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"message\": \"<string>\"\n}"
+						}
+					]
+				},
+				{
+					"name": "GET departments/departments/all",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/departments/departments/all",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"departments",
+								"departments",
+								"all"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/departments/departments/all",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"departments",
+										"departments",
+										"all"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"departmentId\": \"<integer>\",\n    \"departmentName\": \"<string>\"\n  },\n  {\n    \"departmentId\": \"<integer>\",\n    \"departmentName\": \"<string>\"\n  }\n]"
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8000",
+			"type": "string"
+		}
+	]
+}
